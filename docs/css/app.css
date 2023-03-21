@@ -232,11 +232,13 @@ input {
 */
 /* Vendor */
 /* Components */
+.container {
+  max-width: 1046px;
+  margin: 0 auto;
+}
+
 /* Browser specific styles */
 /**
  * Dirty hacks, yes internet explorer, we are looking at you
 */
 /* Landing Page styles */
-h1 {
-  color: #0000ff;
-}
