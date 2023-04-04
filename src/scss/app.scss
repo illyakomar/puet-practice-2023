@@ -19,6 +19,12 @@
 
 /* Components */
 @import "base/common";
+@import "base/buttons";
+
+/* Sections */
+@import "sections/hero";
+@import "sections/statistics";
+@import "sections/advice";
 
 /* Browser specific styles */
 @import "dirty/hacks";
