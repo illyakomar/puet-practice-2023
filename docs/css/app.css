@@ -293,6 +293,17 @@ section {
   color: #fff;
 }
 
+.slick-initialized .slick-slide {
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
 /* Sections */
 .hero {
   background-image: url(../images/design/cover.660bcb.jpg);
@@ -514,6 +525,17 @@ section {
   text-align: center;
   white-space: nowrap;
   color: #737373;
+}
+
+.statistics-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .advice__container {
