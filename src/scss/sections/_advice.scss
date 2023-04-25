@@ -37,17 +37,13 @@
 
 .advice-blocks {
   display: flex;
-  gap: 30px;
 }
 
 .advice-block {
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
-  width: 100%;
+  //width: 100%;
 
   &__content {
-    flex-grow: 1;
     padding: 30px;
   }
 
@@ -71,4 +67,13 @@
   &__cover {
     width: 100%;
   }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  right: 10px;
+  padding: 30px;
+  color: #00a0c1 !important;
 }
