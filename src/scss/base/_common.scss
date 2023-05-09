@@ -10,6 +10,10 @@ body {
 
 .section-info {
   padding: 80px 0;
+
+  @media screen and (max-width: $medium) {
+    padding: 40px 0;
+  }
 }
 
 .features {
@@ -48,4 +52,11 @@ body {
       line-height: 40px;
     }
   }
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
 }

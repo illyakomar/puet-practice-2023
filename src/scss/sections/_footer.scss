@@ -65,10 +65,6 @@
     flex-grow: 1;
   }
 
-  @media screen and (max-width: $small) {
-    width: 100%;
-  }
-
   &__title {
     font-weight: 700;
     font-size: 16px;

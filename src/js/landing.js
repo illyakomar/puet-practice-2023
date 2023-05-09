@@ -43,8 +43,8 @@ $(window).on("load", function () {
     spaceBetween: 30,
     slidesPerView: 4,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-next",
+      prevEl: ".swiper-prev",
     },
     breakpoints: {
       100: {

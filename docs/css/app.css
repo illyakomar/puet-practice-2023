@@ -249,6 +249,11 @@ body {
 .section-info {
   padding: 80px 0;
 }
+@media screen and (max-width: 768px) {
+  .section-info {
+    padding: 40px 0;
+  }
+}
 
 .features {
   background: #fafafa;
@@ -302,6 +307,17 @@ body {
   .section-title h2 {
     line-height: 40px;
   }
+}
+
+.arrow-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
 }
 
 .btn {
@@ -577,6 +593,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .statistics__container {
+    padding-top: 30px;
+  }
+}
 
 .statistics-blocks {
   display: -webkit-box;
@@ -622,17 +643,6 @@ body {
   color: #737373;
 }
 
-.statistics-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
-}
-
 .advice__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -674,15 +684,6 @@ body {
   width: 100%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.5);
-  right: 10px;
-  padding: 30px;
-  color: #00a0c1 !important;
-}
-
 .service__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -692,6 +693,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 100px;
+}
+@media screen and (max-width: 768px) {
+  .service__container {
+    gap: 40px;
+  }
 }
 
 .service-contents {
@@ -707,6 +713,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    gap: 60px;
   }
 }
 
@@ -1000,6 +1007,12 @@ body {
   gap: 80px;
   margin-bottom: 68px;
 }
+@media screen and (max-width: 768px) {
+  .contact__container {
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+}
 
 .contact-blocks {
   display: -webkit-box;
@@ -1151,11 +1164,6 @@ body {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-  }
-}
-@media screen and (max-width: 480px) {
-  .site-map-column {
-    width: 100%;
   }
 }
 .site-map-column__title {

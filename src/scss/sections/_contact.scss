@@ -4,6 +4,11 @@
     flex-direction: column;
     gap: 80px;
     margin-bottom: 68px;
+
+    @media screen and (max-width: $medium) {
+      gap: 40px;
+      margin-bottom: 30px;
+    }
   }
 }
 

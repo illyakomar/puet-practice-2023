@@ -2,6 +2,10 @@
   &__container {
     display: flex;
     flex-direction: column;
+    
+    @media screen and (max-width: $medium) {
+      padding-top: 30px;
+    }
   }
 }
 
@@ -42,11 +46,4 @@
 
     color: $second-text-color;
   }
-}
-
-.statistics-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
 }
