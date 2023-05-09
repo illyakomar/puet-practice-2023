@@ -6,38 +6,14 @@
   }
 }
 
-.service-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  &__container {
-    max-width: 511px;
-  }
-
-  &__info {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: $second-text-color;
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  h2 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    color: $text-color;
-  }
-}
-
 .service-contents {
   display: flex;
   gap: 120px;
+
+  @media screen and (max-width: $large) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .service-descriptions {
@@ -80,10 +56,18 @@
 
     h2 {
       font-weight: 700;
-      font-size: 40px;
+      @include adaptiv-font(40, 30);
       line-height: 57px;
       letter-spacing: 0.2px;
       color: $text-color;
+
+      @media screen and (max-width: $medium) {
+        line-height: 40px;
+      }
+    }
+
+    @media screen and (max-width: $large) {
+      text-align: center;
     }
   }
 

@@ -14,6 +14,27 @@ $(window).on("load", function () {
     //autoplay: true,
     slidesToShow: 4,
     arrows: false,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 510,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   const swiper = new Swiper(".swiper", {
@@ -24,6 +45,24 @@ $(window).on("load", function () {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      100: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      510: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      750: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
     },
   });
 });
