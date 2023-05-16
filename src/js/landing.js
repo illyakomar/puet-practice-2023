@@ -65,6 +65,10 @@ $(window).on("load", function () {
       },
     },
   });
+
+  $(".hero__side-menu").on("click", function () {
+    $("body").toggleClass("lock");
+  });
 });
 
 $("#slick-next").on("click", function () {

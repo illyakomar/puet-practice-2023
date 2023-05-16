@@ -1354,6 +1354,9 @@ body {
  * Dirty hacks, yes internet explorer, we are looking at you
 */
 /* Landing Page styles */
+body.lock {
+  overflow: hidden;
+}
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/swiper/swiper.min.css ***!
   \***********************************************************************************************************************************************************************/
