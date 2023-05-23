@@ -1,3 +1,5 @@
-body.lock {
-  overflow: hidden;
+@media screen and (max-width: $medium) {
+  body.lock {
+    overflow: hidden;
+  }
 }
